@@ -1,5 +1,5 @@
 <h1 align="center">
-  Systemanalyse: <span style="color:orange;">#AutoLab</span>
+  Systemanalyse: <span style='color:red'>#AutoLab</span>
 </h1>
 
 
@@ -7,4 +7,3 @@
   <img src="./Assets/coolesGif.gif" width="250">
 </p>
 
-<span style="color:orange;">Word up</span>
