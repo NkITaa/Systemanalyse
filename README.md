@@ -1,3 +1,3 @@
 # Systemanalyse
 
-<img src="./Assets/AutoLab.gif" align="right" width="118">
+<img src="./Assets/coolesGif.gif" align="right" width="118">
