@@ -1,5 +1,5 @@
-<h1 align="center">
-  Systemanalyse: <span style='color:red'>#AutoLab</span>
+<h1 align="center" style='color:red'>
+  Systemanalyse:
 </h1>
 
 
