@@ -1,3 +1,5 @@
 # Systemanalyse
+<p align="center">
+  <img src="./Assets/coolesGif.gif" width="250">
+</p>
 
-<img src="./Assets/coolesGif.gif" align="right" width="250">
