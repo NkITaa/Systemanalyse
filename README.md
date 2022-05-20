@@ -1,5 +1,3 @@
-
-  Systemanalyse: #AutoLab
 <h1 align="center">
   Systemanalyse: <span style="color:orange;">#AutoLab</span>
 </h1>
