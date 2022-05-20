@@ -39,18 +39,14 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
-  final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
-
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () => FocusManager.instance.primaryFocus?.unfocus(),
       child: Scaffold(
-        key: _scaffoldKey,
         backgroundColor: Color(0xFF3FC1C9),
         drawer: HomeDrawer(),
-        body: StartAppBar(_selectedIndex, hiding, lastPressed, _widgetOptions,
-            _scaffoldKey.currentState?.openDrawer),
+        body: StartAppBar(_selectedIndex, hiding, lastPressed, _widgetOptions),
         bottomNavigationBar: BottomBar(
           _onItemTap,
           _selectedIndex,

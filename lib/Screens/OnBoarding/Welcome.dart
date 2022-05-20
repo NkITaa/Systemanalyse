@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:systemanalyse/Screens/OnBoarding/policy.dart';
+import 'package:AutoLab/Screens/OnBoarding/policy.dart';
 
 import '../../Objects/Constants/constants.dart';
 

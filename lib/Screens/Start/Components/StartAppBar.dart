@@ -5,9 +5,8 @@ class StartAppBar extends StatelessWidget {
   final hiding;
   List<Widget> widgetOptions;
   var lastPressed;
-  void Function()? openDrawer;
   StartAppBar(this.selectedIndex, this.hiding, this.lastPressed,
-      this.widgetOptions, this.openDrawer);
+      this.widgetOptions);
 
   @override
   Widget build(BuildContext context) {
@@ -65,8 +64,7 @@ class StartAppBar extends StatelessWidget {
             ),
             leading: IconButton(
               onPressed: () {
-                openDrawer?.call();
-                // _key.currentState!.openEndDrawer();
+                Scaffold.of(context).openDrawer();
               },
               icon: Icon(
                 Icons.view_headline_rounded,
